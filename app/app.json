@@ -1,7 +1,7 @@
 {
   "id": "suite",
   "name": "Suite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "api": 1,
   "description": "An app that ships a plugin from the same repository.",
   "disclosures": {
