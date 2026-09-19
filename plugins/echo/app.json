@@ -1,0 +1,29 @@
+{
+  "id": "echo",
+  "name": "Echo",
+  "version": "1.0.0",
+  "api": 1,
+  "description": "A plugin shipped beside Suite: echoes what it is told.",
+  "categories": [
+    "utilities"
+  ],
+  "payment": "free",
+  "license": "MIT",
+  "icon": "icon.svg",
+  "disclosures": {
+    "network": [],
+    "pathsOutsideDataRoot": []
+  },
+  "publishes": {
+    "connector": "echo"
+  },
+  "tools": [
+    {
+      "name": "echo",
+      "title": "Echo",
+      "description": "Returns the text it is given.",
+      "mutating": false,
+      "outbound": false
+    }
+  ]
+}
