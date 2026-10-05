@@ -1,0 +1,42 @@
+{
+  "api": 4,
+  "id": "scratch-helper",
+  "name": "Scratch Helper",
+  "version": "2.0.0",
+  "description": "Tidies file names for your other apps.",
+  "icon": "icon.svg",
+  "license": "MIT",
+  "payment": "free",
+  "author": "T-R3x3r",
+  "categories": [
+    "utilities"
+  ],
+  "environment": {
+    "kind": "process"
+  },
+  "tools": [
+    {
+      "name": "tidy",
+      "title": "Tidy a file name",
+      "description": "Turns a file name into lower-case words joined by dashes.",
+      "input": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name"
+        ]
+      },
+      "mutating": false,
+      "outbound": false
+    }
+  ],
+  "capabilities": {
+    "tools": [
+      "tidy"
+    ]
+  }
+}
