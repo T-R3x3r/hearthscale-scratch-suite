@@ -2,7 +2,7 @@
   "api": 4,
   "id": "scratch-helper",
   "name": "Scratch Helper",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Tidies file names for your other apps.",
   "icon": "icon.svg",
   "license": "MIT",

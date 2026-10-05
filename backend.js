@@ -1,4 +1,3 @@
-const pad = require('left-pad');
 const path = require('node:path');
 
 module.exports = {
